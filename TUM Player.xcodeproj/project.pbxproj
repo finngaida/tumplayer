@@ -28,6 +28,7 @@
 		C503A97E1E428B2A005CF46E /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		C503A9801E4291E0005CF46E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C503A9821E429585005CF46E /* ds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ds.json; sourceTree = "<group>"; };
+		C503A9841E42A926005CF46E /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		C503A96B1E428A4A005CF46E /* TUM Player */ = {
 			isa = PBXGroup;
 			children = (
+				C503A9841E42A926005CF46E /* icon.psd */,
 				C503A9821E429585005CF46E /* ds.json */,
 				C503A96C1E428A4A005CF46E /* AppDelegate.swift */,
 				C503A96E1E428A4A005CF46E /* ViewController.swift */,
@@ -278,6 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.finngaida.TUM-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -291,6 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.finngaida.TUM-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

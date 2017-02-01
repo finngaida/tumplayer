@@ -18,7 +18,8 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.contentInset = UIEdgeInsets(top: 65, left: 0, bottom: 0, right: 0)
+        tableView.contentInset = UIEdgeInsets(top: 65, left: 0, bottom: 55, right: 0)
+        self.title = "DS"
     }
     
     override func viewDidAppear(_ animated: Bool) {

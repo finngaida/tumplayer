@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +21,23 @@
                     <view key="view" contentMode="scaleToFill" id="1Uw-wT-ZI6">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i57-23-m2p">
+                                <rect key="frame" x="41" y="145" width="621" height="479"/>
+                                <string key="text">Please choose an episode from the list 
+←</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rGe-Vm-uwn" firstAttribute="top" secondItem="i57-23-m2p" secondAttribute="bottom" constant="144" id="PQr-AJ-j04"/>
+                            <constraint firstItem="i57-23-m2p" firstAttribute="top" secondItem="RRB-Ol-Ejd" secondAttribute="bottom" constant="125" id="TzR-aJ-8MB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i57-23-m2p" secondAttribute="trailing" constant="21" id="mMC-fB-gWV"/>
+                            <constraint firstItem="i57-23-m2p" firstAttribute="leading" secondItem="1Uw-wT-ZI6" secondAttribute="leadingMargin" constant="21" id="x6R-PU-bDE"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="ksM-Ec-1x5" kind="show" identifier="swoosh" id="CDA-RG-sI8"/>
@@ -28,9 +45,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEf-4O-gAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-54" y="676"/>
+            <point key="canvasLocation" x="-54.4921875" y="675.78125"/>
         </scene>
-        <!--Root View Controller-->
+        <!--DS-->
         <scene sceneID="8dt-YB-Z5N">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="LPY-q3-MrG" customClass="ViewController" customModule="TUM_Player" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,8 +70,8 @@
                             <outlet property="delegate" destination="LPY-q3-MrG" id="bHn-C9-rSz"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="DS" id="aXp-px-5R0"/>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="QA4-pn-oxj"/>
+                    <tabBarItem key="tabBarItem" title="DS" selectedImage="π" id="aXp-px-5R0"/>
+                    <navigationItem key="navigationItem" title="DS" id="QA4-pn-oxj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EqX-ER-yP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,4 +133,7 @@
             <point key="canvasLocation" x="674" y="676"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="π" width="20" height="20"/>
+    </resources>
 </document>
