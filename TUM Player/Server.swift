@@ -28,8 +28,8 @@ struct Model {
     
     init(_ dict: [String:String]) throws {
         guard let nme = dict["name"] else { throw E.unwrap(reason: "no name") }
-//        guard let dteS = dict["date"], let dte = DateFormatter().date(from: dteS) else { throw E.unwrap(reason: "no date") }
-//        guard let durS = dict["duration"], let dur = TimeInterval(durS) else { throw E.unwrap(reason: "no duration") }
+        //        guard let dteS = dict["date"], let dte = DateFormatter().date(from: dteS) else { throw E.unwrap(reason: "no date") }
+        //        guard let durS = dict["duration"], let dur = TimeInterval(durS) else { throw E.unwrap(reason: "no duration") }
         guard let slsS = dict["slidesURL"], let sls = URL(string: slsS) else { throw E.unwrap(reason: "no slides") }
         guard let recS = dict["recordingURL"], let rec = URL(string: recS) else { throw E.unwrap(reason: "no recording") }
         
@@ -43,20 +43,20 @@ struct Model {
     static func url(for module: Module) -> URL? {
         switch module {
         case .ds:
-//            return Bundle.main.url(forResource: "ds", withExtension: "json")
+            //            return Bundle.main.url(forResource: "ds", withExtension: "json")
             return URL(string: baseURL + "ds.json")
         case .pgdp:
-                        return Bundle.main.url(forResource: "pgdp", withExtension: "json")
-//            return URL(string: baseURL + "pgdp.json")
+            //                        return Bundle.main.url(forResource: "pgdp", withExtension: "json")
+            return URL(string: baseURL + "pgdp.json")
         case .era:
-//                        return Bundle.main.url(forResource: "era", withExtension: "json")
+            //                        return Bundle.main.url(forResource: "era", withExtension: "json")
             return URL(string: baseURL + "era.json")
         }
     }
 }
 
 class Server: NSObject {
-
+    
     class func getInfo(for module: Module) throws -> [Model] {
         guard let url = Model.url(for: module) else { throw E.unwrap(reason: "can't unwrap url") }
         let data = try Data(contentsOf: url)

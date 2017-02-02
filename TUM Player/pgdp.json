@@ -1,9 +1,217 @@
 [
  {
- "name":"Diskrete Strukturen_001",
- "date":"Tuesday, October 18, 2016",
- "duration":"1 Hour 26 Minutes 51 Seconds",
- "slidesURL":"https://streams-video.tum.de/ondemand/2d130878-b162-44be-888c-6dc2805d906e.mp4?playbackTicket=895fe8743a9d4b09ad48b25c0c91dfcd&amp;site=streams.tum.de",
- "recordingURL":"https://streams-video.tum.de/ondemand/b506086f-d18e-4fd6-9037-fe484233cd4d.mp4?playbackTicket=895fe8743a9d4b09ad48b25c0c91dfcd&amp;site=streams.tum.de"
+ "name":"EIDI1_10/19/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/bc86bcb1-dba9-46e6-9f3e-cc909261ad09.mp4?playbackTicket=56b1b2f7a085462789e6b026ca0f8415&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_10/24/2016",
+ "date":"Wednesday, October 24, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/a11b9521-0589-43c1-aab3-b57178959876.mp4?playbackTicket=6ac47a1b326642b8bbcee1b94e6a7221&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_10/26/2016",
+ "date":"Wednesday, October 26, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/824af387-443c-4601-b957-e323f83be50f.mp4?playbackTicket=15775a5fe3794d86a70f2a077677734e&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_10/31/2016",
+ "date":"Wednesday, October 31, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/e88fd584-9018-488b-960b-93fbe101a031.mp4?playbackTicket=8fcdd2089f174d078c66bda052d13c4a&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/02/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/13244cf7-6f5d-4228-85e9-b72fd210c603.mp4?playbackTicket=209980e3054544808bcce45072039ed3&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/07/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/c36c9038-8d90-4f47-a7f5-a799c9660d8a.mp4?playbackTicket=5d0bf00aeae54e2eb0f95370fd5c197e&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/09/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/fecf3b80-3913-4beb-8223-371409fefca3.mp4?playbackTicket=f25f90a9d1874d7190e3060493e74628&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/14/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/cd3f2266-17cc-4cf2-98d2-0c802a758a72.mp4?playbackTicket=1b3183884a2e4d7f836317fb04184edb&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/16/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/01fd2643-9095-422e-a5ad-820c3a79d9c1.mp4?playbackTicket=61ce33a7af204c3698929725ecd93754&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/21/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/a3f7ab3d-9783-406e-91a9-950925c18158.mp4?playbackTicket=ddf14cfecabc4a05887fffdade80458a&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/23/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/630dcdc8-47b7-41a6-8a10-8168c06e5d8e.mp4?playbackTicket=565341ac802c42aca55f857067f113c2&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/28/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/06cf8fb3-5e0f-43cd-82b9-cb57fd66f3ef.mp4?playbackTicket=7701d13094ed49afab2f4d168c4a2236&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_11/30/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/3f3ff7e7-3f4f-49b1-9ae9-81c87d07451a.mp4?playbackTicket=83a1e337852548799384b9e9e1e43eed&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_12/05/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/ea4127b3-39a0-46b6-bf02-6ae4280b9295.mp4?playbackTicket=b7fad4776ed24ca3b5fe28ff1146cf05&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_12/05/2016 HA",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/25454a40-9f39-4fe5-9d6c-df87f598e9a4.mp4?playbackTicket=f4bd87f8da5440a7a8ee72e473115be0&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_12/14/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/3d25fdab-44ec-4983-910e-cdcb070e55e2.mp4?playbackTicket=f41c6660044e44ef9de46f24ef4bc771&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_12/19/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/d2a244af-abc4-4a8f-93f0-36202a69e9c9.mp4?playbackTicket=526702e836284b06a2acd9ae0a84c1ba&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_12/19/2016 HA",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/8e13e937-2893-46c1-ad8b-d32c9df89780.mp4?playbackTicket=29963e67494b42349f6a1599b8cbfe81&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_12/21/2016",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/55a73f35-a9e9-4cba-8c73-69b72631228c.mp4?playbackTicket=0dac51b1d27d46e2a4fe1706ab9eb36e&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_01/09/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/9751f4d5-0674-49e8-857f-9e3b85e174d4.mp4?playbackTicket=4d1e784bcf724e9ca7816f1cfbab0baf&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_01/11/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/0610d1e1-4793-41c7-bb64-4421158dcf81.mp4?playbackTicket=25251883971a4f2da0f1adb710a07c82&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_01/16/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/d9e09052-aa09-4a48-ba95-40eac7d9b35a.mp4?playbackTicket=5a9bdef427734014970b19679929f0f8&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_01/18/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/c9cb37c6-a562-4986-81ea-05ccb8c413ad.mp4?playbackTicket=4ed7f14f453e41fd82092021ba1a7268&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_01/23/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/f88bcaac-29ec-4c58-bddf-8d5212c7bc02.mp4?playbackTicket=ff43353240e449348eadb85ff7acf2ee&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_01/25/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/909bc009-a9a2-45e8-a0bc-8c5355b40c6c.mp4?playbackTicket=8f1fdf33c19f46fe8114fdd88d4d6336&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_01/30/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/ae7f7a2a-3939-400a-97ba-075c8371de2b.mp4?playbackTicket=33bac834b341407281444a3fbc44abac&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
+ },
+ 
+ {
+ "name":"EIDI1_02/01/2017",
+ "date":"Wednesday, October 19, 2016",
+ "duration":"1 Hour 28 Minutes 22 Seconds",
+ "slidesURL":"https://streams-video.tum.de/ondemand/4a1bc613-f65d-4baf-a885-b37a7f2db52d.mp4?playbackTicket=2c298833337044f387969accf0c89b3b&amp;site=streams.tum.de",
+ "recordingURL":"https://nope"
  }
  ]
