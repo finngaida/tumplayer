@@ -15,6 +15,11 @@
 		C503A97F1E428B2A005CF46E /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A97E1E428B2A005CF46E /* Server.swift */; };
 		C503A9811E4291E0005CF46E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A9801E4291E0005CF46E /* DetailViewController.swift */; };
 		C503A9831E429585005CF46E /* ds.json in Resources */ = {isa = PBXBuildFile; fileRef = C503A9821E429585005CF46E /* ds.json */; };
+		C503A9861E42ACB8005CF46E /* pgdp.json in Resources */ = {isa = PBXBuildFile; fileRef = C503A9851E42ACB8005CF46E /* pgdp.json */; };
+		C503A9881E42ACCE005CF46E /* era.json in Resources */ = {isa = PBXBuildFile; fileRef = C503A9871E42ACCE005CF46E /* era.json */; };
+		C503A98A1E42AE52005CF46E /* DSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A9891E42AE52005CF46E /* DSViewController.swift */; };
+		C503A98C1E42AE63005CF46E /* ERAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A98B1E42AE63005CF46E /* ERAViewController.swift */; };
+		C503A98E1E42AE6A005CF46E /* PGDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		C503A9801E4291E0005CF46E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C503A9821E429585005CF46E /* ds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ds.json; sourceTree = "<group>"; };
 		C503A9841E42A926005CF46E /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
+		C503A9851E42ACB8005CF46E /* pgdp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pgdp.json; sourceTree = "<group>"; };
+		C503A9871E42ACCE005CF46E /* era.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = era.json; sourceTree = "<group>"; };
+		C503A9891E42AE52005CF46E /* DSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSViewController.swift; sourceTree = "<group>"; };
+		C503A98B1E42AE63005CF46E /* ERAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERAViewController.swift; sourceTree = "<group>"; };
+		C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGDPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,13 @@
 			children = (
 				C503A9841E42A926005CF46E /* icon.psd */,
 				C503A9821E429585005CF46E /* ds.json */,
+				C503A9851E42ACB8005CF46E /* pgdp.json */,
+				C503A9871E42ACCE005CF46E /* era.json */,
 				C503A96C1E428A4A005CF46E /* AppDelegate.swift */,
 				C503A96E1E428A4A005CF46E /* ViewController.swift */,
+				C503A9891E42AE52005CF46E /* DSViewController.swift */,
+				C503A98B1E42AE63005CF46E /* ERAViewController.swift */,
+				C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */,
 				C503A9801E4291E0005CF46E /* DetailViewController.swift */,
 				C503A97E1E428B2A005CF46E /* Server.swift */,
 				C503A9701E428A4A005CF46E /* Main.storyboard */,
@@ -134,7 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C503A9861E42ACB8005CF46E /* pgdp.json in Resources */,
 				C503A9771E428A4A005CF46E /* LaunchScreen.storyboard in Resources */,
+				C503A9881E42ACCE005CF46E /* era.json in Resources */,
 				C503A9741E428A4A005CF46E /* Assets.xcassets in Resources */,
 				C503A9831E429585005CF46E /* ds.json in Resources */,
 				C503A9721E428A4A005CF46E /* Main.storyboard in Resources */,
@@ -152,6 +169,9 @@
 				C503A97F1E428B2A005CF46E /* Server.swift in Sources */,
 				C503A96D1E428A4A005CF46E /* AppDelegate.swift in Sources */,
 				C503A9811E4291E0005CF46E /* DetailViewController.swift in Sources */,
+				C503A98A1E42AE52005CF46E /* DSViewController.swift in Sources */,
+				C503A98E1E42AE6A005CF46E /* PGDPViewController.swift in Sources */,
+				C503A98C1E42AE63005CF46E /* ERAViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

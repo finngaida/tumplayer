@@ -14,18 +14,18 @@ enum Notifications {
 
 class ViewController: UITableViewController {
 
+    var module: Module = Module.ds
     var data: [Model]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.contentInset = UIEdgeInsets(top: 65, left: 0, bottom: 55, right: 0)
-        self.title = "DS"
     }
     
     override func viewDidAppear(_ animated: Bool) {
         DispatchQueue.main.async {
             do {
-                self.data = try Server.getInfo(for: Module.ds)
+                self.data = try Server.getInfo(for: self.module)
                 print("got data: \(self.data)")
                 self.tableView.reloadData()
             } catch let e {

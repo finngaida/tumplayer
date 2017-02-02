@@ -14,11 +14,11 @@ enum E: Error {
 }
 
 enum Module {
-    case ds
+    case ds, pgdp, era
 }
 
 struct Model {
-    static let baseURL = ""
+    static let baseURL = "https://raw.githubusercontent.com/finngaida/tumplayer/master/TUM%20Player/"
     
     let name: String
     let date: Date
@@ -43,8 +43,14 @@ struct Model {
     static func url(for module: Module) -> URL? {
         switch module {
         case .ds:
-            return Bundle.main.url(forResource: "ds", withExtension: "json")
-//            return URL(string: baseURL + "ds.json")
+//            return Bundle.main.url(forResource: "ds", withExtension: "json")
+            return URL(string: baseURL + "ds.json")
+        case .pgdp:
+                        return Bundle.main.url(forResource: "pgdp", withExtension: "json")
+//            return URL(string: baseURL + "pgdp.json")
+        case .era:
+                        return Bundle.main.url(forResource: "era", withExtension: "json")
+//            return URL(string: baseURL + "era.json")
         }
     }
 }

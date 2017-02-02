@@ -50,7 +50,7 @@
         <!--DS-->
         <scene sceneID="8dt-YB-Z5N">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="LPY-q3-MrG" customClass="ViewController" customModule="TUM_Player" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="DS" clearsSelectionOnViewWillAppear="NO" id="LPY-q3-MrG" customClass="DSViewController" customModule="TUM_Player" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="HaO-u9-Nvf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +75,67 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EqX-ER-yP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1844" y="27"/>
+            <point key="canvasLocation" x="1509" y="27"/>
+        </scene>
+        <!--PGDP-->
+        <scene sceneID="pRc-4z-TuW">
+            <objects>
+                <tableViewController title="PGDP" clearsSelectionOnViewWillAppear="NO" id="h6z-3W-h3C" customClass="PGDPViewController" customModule="TUM_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4wb-Tm-HK7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="6pi-gp-vMt">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6pi-gp-vMt" id="tjr-9X-nsq">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="h6z-3W-h3C" id="9qz-XF-j4n"/>
+                            <outlet property="delegate" destination="h6z-3W-h3C" id="h6Q-Ca-YbT"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="PGDP" selectedImage="&lt;&gt;" id="zBM-Ip-jX7"/>
+                    <navigationItem key="navigationItem" title="PGDP" id="Ykq-VQ-vqV"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8o-gL-GEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1509" y="-678"/>
+        </scene>
+        <!--ERA-->
+        <scene sceneID="aVw-rk-ewB">
+            <objects>
+                <tableViewController title="ERA" clearsSelectionOnViewWillAppear="NO" id="eOr-vc-nbV" customClass="ERAViewController" customModule="TUM_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vqK-cB-Qk3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="kxN-GT-eK8">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kxN-GT-eK8" id="KLi-VM-J7U">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eOr-vc-nbV" id="pUs-KK-Ygr"/>
+                            <outlet property="delegate" destination="eOr-vc-nbV" id="zJm-uc-pQ0"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="ERA" selectedImage="π" id="KeV-jD-EPI"/>
+                    <navigationItem key="navigationItem" title="ERA" id="a7K-9Y-WvB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8j-jH-aRC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1509" y="676"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FqN-zE-d9W">
@@ -118,6 +178,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="LPY-q3-MrG" kind="relationship" relationship="viewControllers" id="kVW-Nt-z0c"/>
+                        <segue destination="h6z-3W-h3C" kind="relationship" relationship="viewControllers" id="1tY-DN-P2n"/>
+                        <segue destination="eOr-vc-nbV" kind="relationship" relationship="viewControllers" id="qHV-aB-cxu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dtk-JA-kyD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -134,6 +196,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="π" width="20" height="20"/>
+        <image name="&lt;&gt;" width="30" height="30"/>
+        <image name="π" width="30" height="30"/>
     </resources>
 </document>
