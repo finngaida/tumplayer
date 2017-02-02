@@ -49,8 +49,8 @@ struct Model {
                         return Bundle.main.url(forResource: "pgdp", withExtension: "json")
 //            return URL(string: baseURL + "pgdp.json")
         case .era:
-                        return Bundle.main.url(forResource: "era", withExtension: "json")
-//            return URL(string: baseURL + "era.json")
+//                        return Bundle.main.url(forResource: "era", withExtension: "json")
+            return URL(string: baseURL + "era.json")
         }
     }
 }
