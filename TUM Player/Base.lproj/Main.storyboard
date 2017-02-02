@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i57-23-m2p">
-                                <rect key="frame" x="41" y="145" width="621" height="479"/>
+                                <rect key="frame" x="41" y="145" width="620.5" height="479"/>
                                 <string key="text">Please choose an episode from the list 
 ←</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
@@ -70,7 +70,7 @@
                             <outlet property="delegate" destination="LPY-q3-MrG" id="bHn-C9-rSz"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="DS" selectedImage="π" id="aXp-px-5R0"/>
+                    <tabBarItem key="tabBarItem" title="DS" image="π" selectedImage="π" id="aXp-px-5R0"/>
                     <navigationItem key="navigationItem" title="DS" id="QA4-pn-oxj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EqX-ER-yP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -100,7 +100,7 @@
                             <outlet property="delegate" destination="h6z-3W-h3C" id="h6Q-Ca-YbT"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="PGDP" selectedImage="&lt;&gt;" id="zBM-Ip-jX7"/>
+                    <tabBarItem key="tabBarItem" title="PGDP" image="&lt;&gt;" selectedImage="&lt;&gt;" id="zBM-Ip-jX7"/>
                     <navigationItem key="navigationItem" title="PGDP" id="Ykq-VQ-vqV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8o-gL-GEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -130,7 +130,7 @@
                             <outlet property="delegate" destination="eOr-vc-nbV" id="zJm-uc-pQ0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="ERA" selectedImage="π" id="KeV-jD-EPI"/>
+                    <tabBarItem key="tabBarItem" title="ERA" image="01" selectedImage="01" id="KeV-jD-EPI"/>
                     <navigationItem key="navigationItem" title="ERA" id="a7K-9Y-WvB"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u8j-jH-aRC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -156,7 +156,7 @@
         <!--Split View Controller-->
         <scene sceneID="Bn8-fV-Dec">
             <objects>
-                <splitViewController id="d4u-P8-Ek3" sceneMemberID="viewController">
+                <splitViewController id="d4u-P8-Ek3" customClass="SplitViewController" customModule="TUM_Player" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="4YW-10-eGU" kind="relationship" relationship="masterViewController" id="CXy-9b-VXR"/>
                         <segue destination="cji-UO-X6I" kind="relationship" relationship="detailViewController" id="13A-qw-AgS"/>
@@ -173,6 +173,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="dyN-I5-EWf"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="93y-n0-jIy">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -196,6 +197,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="01" width="30" height="30"/>
         <image name="&lt;&gt;" width="30" height="30"/>
         <image name="π" width="30" height="30"/>
     </resources>

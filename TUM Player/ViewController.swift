@@ -20,13 +20,13 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.contentInset = UIEdgeInsets(top: 65, left: 0, bottom: 50, right: 0)
+        self.navigationController?.navigationBar.topItem?.title = (module == .ds ? "DS" : (module == .pgdp ? "PGDP" : "ERA"))
     }
     
     override func viewDidAppear(_ animated: Bool) {
         DispatchQueue.main.async {
             do {
                 self.data = try Server.getInfo(for: self.module)
-                print("got data: \(self.data)")
                 self.tableView.reloadData()
             } catch let e {
                 print("ouch \(e)")

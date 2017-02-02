@@ -14,13 +14,6 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        NotificationCenter.default.addObserver(forName: Notifications.tapped, object: nil, queue: nil) { (notification) in
-            guard let model = notification.object as? Model else { return print("damn") }
-            
-            _ = self.navigationController?.popToRootViewController(animated: true)
-            self.performSegue(withIdentifier: "swoosh", sender: model)
-        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

@@ -20,6 +20,7 @@
 		C503A98A1E42AE52005CF46E /* DSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A9891E42AE52005CF46E /* DSViewController.swift */; };
 		C503A98C1E42AE63005CF46E /* ERAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A98B1E42AE63005CF46E /* ERAViewController.swift */; };
 		C503A98E1E42AE6A005CF46E /* PGDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */; };
+		C503A9911E42BF81005CF46E /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A9901E42BF81005CF46E /* SplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		C503A9891E42AE52005CF46E /* DSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSViewController.swift; sourceTree = "<group>"; };
 		C503A98B1E42AE63005CF46E /* ERAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERAViewController.swift; sourceTree = "<group>"; };
 		C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGDPViewController.swift; sourceTree = "<group>"; };
+		C503A9901E42BF81005CF46E /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				C503A9871E42ACCE005CF46E /* era.json */,
 				C503A96C1E428A4A005CF46E /* AppDelegate.swift */,
 				C503A96E1E428A4A005CF46E /* ViewController.swift */,
+				C503A9901E42BF81005CF46E /* SplitViewController.swift */,
 				C503A9891E42AE52005CF46E /* DSViewController.swift */,
 				C503A98B1E42AE63005CF46E /* ERAViewController.swift */,
 				C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */,
@@ -172,6 +175,7 @@
 				C503A98A1E42AE52005CF46E /* DSViewController.swift in Sources */,
 				C503A98E1E42AE6A005CF46E /* PGDPViewController.swift in Sources */,
 				C503A98C1E42AE63005CF46E /* ERAViewController.swift in Sources */,
+				C503A9911E42BF81005CF46E /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +341,7 @@
 				C503A97D1E428A4A005CF46E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
