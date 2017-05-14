@@ -14,13 +14,16 @@
 		C503A9771E428A4A005CF46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C503A9751E428A4A005CF46E /* LaunchScreen.storyboard */; };
 		C503A97F1E428B2A005CF46E /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A97E1E428B2A005CF46E /* Server.swift */; };
 		C503A9811E4291E0005CF46E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A9801E4291E0005CF46E /* DetailViewController.swift */; };
-		C503A9831E429585005CF46E /* ds.json in Resources */ = {isa = PBXBuildFile; fileRef = C503A9821E429585005CF46E /* ds.json */; };
-		C503A9861E42ACB8005CF46E /* pgdp.json in Resources */ = {isa = PBXBuildFile; fileRef = C503A9851E42ACB8005CF46E /* pgdp.json */; };
-		C503A9881E42ACCE005CF46E /* era.json in Resources */ = {isa = PBXBuildFile; fileRef = C503A9871E42ACCE005CF46E /* era.json */; };
 		C503A98A1E42AE52005CF46E /* DSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A9891E42AE52005CF46E /* DSViewController.swift */; };
 		C503A98C1E42AE63005CF46E /* ERAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A98B1E42AE63005CF46E /* ERAViewController.swift */; };
 		C503A98E1E42AE6A005CF46E /* PGDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */; };
 		C503A9911E42BF81005CF46E /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A9901E42BF81005CF46E /* SplitViewController.swift */; };
+		C546523A1EC8842B003CCFBA /* ds.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652331EC8842B003CCFBA /* ds.json */; };
+		C546523B1EC8842B003CCFBA /* era.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652341EC8842B003CCFBA /* era.json */; };
+		C546523C1EC8842B003CCFBA /* pgdp.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652351EC8842B003CCFBA /* pgdp.json */; };
+		C546523D1EC8842B003CCFBA /* eist.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652371EC8842B003CCFBA /* eist.json */; };
+		C546523E1EC8842B003CCFBA /* gad.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652381EC8842B003CCFBA /* gad.json */; };
+		C546523F1EC8842B003CCFBA /* la.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652391EC8842B003CCFBA /* la.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,14 +36,17 @@
 		C503A9781E428A4A005CF46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C503A97E1E428B2A005CF46E /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		C503A9801E4291E0005CF46E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		C503A9821E429585005CF46E /* ds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ds.json; sourceTree = "<group>"; };
 		C503A9841E42A926005CF46E /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
-		C503A9851E42ACB8005CF46E /* pgdp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pgdp.json; sourceTree = "<group>"; };
-		C503A9871E42ACCE005CF46E /* era.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = era.json; sourceTree = "<group>"; };
 		C503A9891E42AE52005CF46E /* DSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSViewController.swift; sourceTree = "<group>"; };
 		C503A98B1E42AE63005CF46E /* ERAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERAViewController.swift; sourceTree = "<group>"; };
 		C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGDPViewController.swift; sourceTree = "<group>"; };
 		C503A9901E42BF81005CF46E /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		C54652331EC8842B003CCFBA /* ds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ds.json; sourceTree = "<group>"; };
+		C54652341EC8842B003CCFBA /* era.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = era.json; sourceTree = "<group>"; };
+		C54652351EC8842B003CCFBA /* pgdp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pgdp.json; sourceTree = "<group>"; };
+		C54652371EC8842B003CCFBA /* eist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eist.json; sourceTree = "<group>"; };
+		C54652381EC8842B003CCFBA /* gad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gad.json; sourceTree = "<group>"; };
+		C54652391EC8842B003CCFBA /* la.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = la.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +79,8 @@
 		C503A96B1E428A4A005CF46E /* TUM Player */ = {
 			isa = PBXGroup;
 			children = (
+				C54652311EC8842B003CCFBA /* json */,
 				C503A9841E42A926005CF46E /* icon.psd */,
-				C503A9821E429585005CF46E /* ds.json */,
-				C503A9851E42ACB8005CF46E /* pgdp.json */,
-				C503A9871E42ACCE005CF46E /* era.json */,
 				C503A96C1E428A4A005CF46E /* AppDelegate.swift */,
 				C503A96E1E428A4A005CF46E /* ViewController.swift */,
 				C503A9901E42BF81005CF46E /* SplitViewController.swift */,
@@ -91,6 +95,35 @@
 				C503A9781E428A4A005CF46E /* Info.plist */,
 			);
 			path = "TUM Player";
+			sourceTree = "<group>";
+		};
+		C54652311EC8842B003CCFBA /* json */ = {
+			isa = PBXGroup;
+			children = (
+				C54652321EC8842B003CCFBA /* 1 */,
+				C54652361EC8842B003CCFBA /* 2 */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		C54652321EC8842B003CCFBA /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				C54652331EC8842B003CCFBA /* ds.json */,
+				C54652341EC8842B003CCFBA /* era.json */,
+				C54652351EC8842B003CCFBA /* pgdp.json */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		C54652361EC8842B003CCFBA /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				C54652371EC8842B003CCFBA /* eist.json */,
+				C54652381EC8842B003CCFBA /* gad.json */,
+				C54652391EC8842B003CCFBA /* la.json */,
+			);
+			path = 2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,11 +185,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C503A9861E42ACB8005CF46E /* pgdp.json in Resources */,
 				C503A9771E428A4A005CF46E /* LaunchScreen.storyboard in Resources */,
-				C503A9881E42ACCE005CF46E /* era.json in Resources */,
 				C503A9741E428A4A005CF46E /* Assets.xcassets in Resources */,
-				C503A9831E429585005CF46E /* ds.json in Resources */,
+				C546523D1EC8842B003CCFBA /* eist.json in Resources */,
+				C546523C1EC8842B003CCFBA /* pgdp.json in Resources */,
+				C546523E1EC8842B003CCFBA /* gad.json in Resources */,
+				C546523A1EC8842B003CCFBA /* ds.json in Resources */,
+				C546523F1EC8842B003CCFBA /* la.json in Resources */,
+				C546523B1EC8842B003CCFBA /* era.json in Resources */,
 				C503A9721E428A4A005CF46E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import UIKit
 class PGDPViewController: ViewController {
 
     override func awakeFromNib() {
-        module = .pgdp
+        module = .gad
     }
 
 }

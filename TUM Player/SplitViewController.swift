@@ -23,8 +23,6 @@ class SplitViewController: UISplitViewController {
 //            _ = detail.navigationController?.popToRootViewController(animated: true)
 //            detail.performSegue(withIdentifier: "swoosh", sender: model)
             
-            print("hello")
-            
             let playVC = AVPlayerViewController()
             playVC.player = AVPlayer(url: model.slides)
             self.viewControllers[1] = playVC

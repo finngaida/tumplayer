@@ -15,6 +15,18 @@ enum E: Error {
 
 enum Module {
     case ds, pgdp, era
+    case la, gad, eist
+    
+    func title() -> String {
+        switch self {
+            case .ds: return "DS"
+            case .pgdp: return "PGDP"
+            case .era: return "ERA"
+            case .la: return "LA"
+            case .gad: return "GAD"
+            case .eist: return "EIST"
+        }
+    }
 }
 
 struct Model {
@@ -24,20 +36,19 @@ struct Model {
     let date: Date
     let duration: TimeInterval
     let slides: URL
-    let recording: URL
+    let recording: URL?
     
     init(_ dict: [String:String]) throws {
         guard let nme = dict["name"] else { throw E.unwrap(reason: "no name") }
         //        guard let dteS = dict["date"], let dte = DateFormatter().date(from: dteS) else { throw E.unwrap(reason: "no date") }
         //        guard let durS = dict["duration"], let dur = TimeInterval(durS) else { throw E.unwrap(reason: "no duration") }
         guard let slsS = dict["slidesURL"], let sls = URL(string: slsS) else { throw E.unwrap(reason: "no slides") }
-        guard let recS = dict["recordingURL"], let rec = URL(string: recS) else { throw E.unwrap(reason: "no recording") }
         
         name = nme
         date = Date()
         duration = 0
         slides = sls
-        recording = rec
+        recording = URL(string: dict["recordingURL"] ?? "")
     }
     
     static func url(for module: Module) -> URL? {
@@ -51,6 +62,15 @@ struct Model {
         case .era:
             //                        return Bundle.main.url(forResource: "era", withExtension: "json")
             return URL(string: baseURL + "era.json")
+        case .la:
+            return Bundle.main.url(forResource: "la", withExtension: "json")
+//            return URL(string: baseURL + "la.json")
+        case .gad:
+            return Bundle.main.url(forResource: "gad", withExtension: "json")
+            //            return URL(string: baseURL + "gad.json")
+        case .eist:
+            return Bundle.main.url(forResource: "eist", withExtension: "json")
+            //            return URL(string: baseURL + "eist.json")
         }
     }
 }

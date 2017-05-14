@@ -11,6 +11,6 @@ import UIKit
 class ERAViewController: ViewController {
 
     override func awakeFromNib() {
-        module = .era
+        module = .eist
     }
 }

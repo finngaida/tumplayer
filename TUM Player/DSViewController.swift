@@ -11,7 +11,7 @@ import UIKit
 class DSViewController: ViewController {
 
     override func awakeFromNib() {
-        module = .ds
+        module = .la
     }
 
 }
