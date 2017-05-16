@@ -23,9 +23,15 @@ class SplitViewController: UISplitViewController {
 //            _ = detail.navigationController?.popToRootViewController(animated: true)
 //            detail.performSegue(withIdentifier: "swoosh", sender: model)
             
-            let playVC = AVPlayerViewController()
+            let playVC = PlayerViewController()
             playVC.player = AVPlayer(url: model.slides)
-            self.viewControllers[1] = playVC
+            
+            if self.viewControllers.count > 1 {
+                self.viewControllers[1] = playVC
+            } else {
+                self.viewControllers.first?.present(playVC, animated: true, completion: nil)
+            }
+            
             playVC.player?.play()
         }
     }

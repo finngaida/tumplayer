@@ -19,18 +19,18 @@ enum Module {
     
     func title() -> String {
         switch self {
-            case .ds: return "DS"
-            case .pgdp: return "PGDP"
-            case .era: return "ERA"
-            case .la: return "LA"
-            case .gad: return "GAD"
-            case .eist: return "EIST"
+        case .ds: return "DS"
+        case .pgdp: return "PGDP"
+        case .era: return "ERA"
+        case .la: return "LA"
+        case .gad: return "GAD"
+        case .eist: return "EIST"
         }
     }
 }
 
 struct Model {
-    static let baseURL = "https://raw.githubusercontent.com/finngaida/tumplayer/master/TUM%20Player/"
+    static let baseURL = "https://raw.githubusercontent.com/finngaida/tumplayer/master/TUM%20Player/json/"
     
     let name: String
     let date: Date
@@ -55,22 +55,22 @@ struct Model {
         switch module {
         case .ds:
             //            return Bundle.main.url(forResource: "ds", withExtension: "json")
-            return URL(string: baseURL + "ds.json")
+            return URL(string: baseURL + "1/ds.json")
         case .pgdp:
             //                        return Bundle.main.url(forResource: "pgdp", withExtension: "json")
-            return URL(string: baseURL + "pgdp.json")
+            return URL(string: baseURL + "1/pgdp.json")
         case .era:
             //                        return Bundle.main.url(forResource: "era", withExtension: "json")
-            return URL(string: baseURL + "era.json")
+            return URL(string: baseURL + "1/era.json")
         case .la:
-            return Bundle.main.url(forResource: "la", withExtension: "json")
-//            return URL(string: baseURL + "la.json")
+            //            return Bundle.main.url(forResource: "la", withExtension: "json")
+            return URL(string: baseURL + "2/la.json")
         case .gad:
-            return Bundle.main.url(forResource: "gad", withExtension: "json")
-            //            return URL(string: baseURL + "gad.json")
+            //            return Bundle.main.url(forResource: "gad", withExtension: "json")
+            return URL(string: baseURL + "2/gad.json")
         case .eist:
-            return Bundle.main.url(forResource: "eist", withExtension: "json")
-            //            return URL(string: baseURL + "eist.json")
+            //            return Bundle.main.url(forResource: "eist", withExtension: "json")
+            return URL(string: baseURL + "2/eist.json")
         }
     }
 }

@@ -24,6 +24,7 @@
 		C546523D1EC8842B003CCFBA /* eist.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652371EC8842B003CCFBA /* eist.json */; };
 		C546523E1EC8842B003CCFBA /* gad.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652381EC8842B003CCFBA /* gad.json */; };
 		C546523F1EC8842B003CCFBA /* la.json in Resources */ = {isa = PBXBuildFile; fileRef = C54652391EC8842B003CCFBA /* la.json */; };
+		C552DB081ECB29D4001562A7 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552DB071ECB29D4001562A7 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		C54652371EC8842B003CCFBA /* eist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eist.json; sourceTree = "<group>"; };
 		C54652381EC8842B003CCFBA /* gad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gad.json; sourceTree = "<group>"; };
 		C54652391EC8842B003CCFBA /* la.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = la.json; sourceTree = "<group>"; };
+		C552DB071ECB29D4001562A7 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				C503A98B1E42AE63005CF46E /* ERAViewController.swift */,
 				C503A98D1E42AE6A005CF46E /* PGDPViewController.swift */,
 				C503A9801E4291E0005CF46E /* DetailViewController.swift */,
+				C552DB071ECB29D4001562A7 /* PlayerViewController.swift */,
 				C503A97E1E428B2A005CF46E /* Server.swift */,
 				C503A9701E428A4A005CF46E /* Main.storyboard */,
 				C503A9731E428A4A005CF46E /* Assets.xcassets */,
@@ -209,6 +212,7 @@
 				C503A96D1E428A4A005CF46E /* AppDelegate.swift in Sources */,
 				C503A9811E4291E0005CF46E /* DetailViewController.swift in Sources */,
 				C503A98A1E42AE52005CF46E /* DSViewController.swift in Sources */,
+				C552DB081ECB29D4001562A7 /* PlayerViewController.swift in Sources */,
 				C503A98E1E42AE6A005CF46E /* PGDPViewController.swift in Sources */,
 				C503A98C1E42AE63005CF46E /* ERAViewController.swift in Sources */,
 				C503A9911E42BF81005CF46E /* SplitViewController.swift in Sources */,

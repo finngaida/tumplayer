@@ -70,7 +70,7 @@
                             <outlet property="delegate" destination="LPY-q3-MrG" id="bHn-C9-rSz"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="DS" image="π" selectedImage="π" id="aXp-px-5R0"/>
+                    <tabBarItem key="tabBarItem" title="LA" image="π" selectedImage="π" id="aXp-px-5R0"/>
                     <navigationItem key="navigationItem" title="DS" id="QA4-pn-oxj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EqX-ER-yP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -100,7 +100,7 @@
                             <outlet property="delegate" destination="h6z-3W-h3C" id="h6Q-Ca-YbT"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="PGDP" image="&lt;&gt;" selectedImage="&lt;&gt;" id="zBM-Ip-jX7"/>
+                    <tabBarItem key="tabBarItem" title="GAD" image="&lt;&gt;" selectedImage="&lt;&gt;" id="zBM-Ip-jX7"/>
                     <navigationItem key="navigationItem" title="PGDP" id="Ykq-VQ-vqV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8o-gL-GEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -130,7 +130,7 @@
                             <outlet property="delegate" destination="eOr-vc-nbV" id="zJm-uc-pQ0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="ERA" image="01" selectedImage="01" id="KeV-jD-EPI"/>
+                    <tabBarItem key="tabBarItem" title="EIST" image="01" selectedImage="01" id="KeV-jD-EPI"/>
                     <navigationItem key="navigationItem" title="ERA" id="a7K-9Y-WvB"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u8j-jH-aRC" userLabel="First Responder" sceneMemberID="firstResponder"/>
